@@ -1,0 +1,184 @@
+
+
+.grid-container{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    grid-template-areas: 
+    'a a a a a a'
+    'b b c c c d'
+    'e e e e e e'
+    'f f f f f f';
+    /*justify-content: space-between;*/
+    /*justify-content: start, end, center, space-around, space-evenly, space-between;*/
+    /* height: 400px; */
+}
+
+
+
+#one{
+    grid-area: a;
+}
+
+#two{
+    background-color: cyan;
+    grid-area: b;
+}
+
+#three{
+    background-color: seagreen;
+    grid-area: c;
+}
+
+#four{
+    background-color: magenta;
+    grid-area: d;
+}
+
+#five{
+    background-color: maroon;
+    grid-area: e;
+}
+
+#six{
+    background-color: grey;
+    grid-area: f;
+}
+
+.flex-container{
+    display: flex;
+    background-color: black;
+    flex-flow: row wrap;
+    /* align-content: center; */
+    /* flex-direction: row;  */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: space-evenly; */
+}
+
+#oneflex{
+    background-color: #ff9c00;
+    margin: 20px;
+    padding: 10px;
+}
+
+#twoflex{
+    background-color: #d900ff;
+    margin: 20px;
+    padding: 10px;
+}
+
+#threeflex{
+    background-color: #00ffff;
+    margin: 20px;
+    padding: 10px;
+}
+
+#fourflex{
+    background-color: #00ff0d;
+    margin: 20px;
+    padding: 10px;
+}
+#navUl li {
+    float: left;
+}
+#navUl li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#navUl{
+    position: -webkit-sticky;
+    position: sticky;
+    overflow: hidden;
+    bottom: 0;
+    color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+#ul2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background color: #f1f1f1;
+    border: 1px solid ;
+}
+
+.linkone{
+    display: block;
+    float: left;
+}
+
+.list{
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.list a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+}
+
+.list :hover{
+    background-color: yellow;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 364px){
+    /* new code styles for this device */
+    .grid-container {
+        background-color: orange;
+        display: grid;
+        grid-gap: 10px;
+        padding: 10px;
+        grid-template-areas: 
+        'a a a a a a'
+        'b b b b b b'
+        'd d d d d d'
+        'c c c c c c'
+        'e e e e e e'
+        'f f f f f f';
+
+        .flex-container{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

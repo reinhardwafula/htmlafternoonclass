@@ -1,0 +1,7 @@
+1.To write html we use elements<nameoftheelements></nameoftheelements>
+head includes the metadata of the page 
+attributes are metadata about elements
+    for example...link includes attributes such as rel type and href
+2.Layout techniques:
+    grid
+    flexbox

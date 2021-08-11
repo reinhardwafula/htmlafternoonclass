@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JSHTML</title>
+</head>
+<body>
+<p id="demo" class="para">Hello World</p>
+<p class="para">Hello World 2</p>
+<img id="myImage" src="../images/download.jpeg" height="200" width="200" alt="Image Not Found">
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date(); ">Inline Javascript</button>
+<div>
+<button type="button" onclick="showDate();">Date And Time
+</button>
+</div>
+<div>
+<button type="button" onclick="createE();">Create Element
+</button>
+</div>
+<script type="text/javascript">
+    //js code
+    function showDate(){
+        document.getElementById('date').innerHTML = Date();
+    }
+    function createE(){
+        document.getElementById('date').outerHTML = "<a href='https://www.google.com'>Google</a>"
+    }
+    // document.getElementById('date').style.color = "red";
+    document.getElementById('date').style.fontSize = "25px";
+    document.body.style.backgroundColor = "yellow";
+    document.p.style.backgroundColor = "green";
+    // document.getElementById('myImage').src = "../images/phototwo.jpeg";
+
+    // document.querySelectorAll("p.para").innerHTML = "hello from query selector all";
+
+    document.querySelectorAll("p.para");
+    document.getElementById('demo').innerHTML = "The first paragraph with class para is " + x[1].innerHTML;
+</script>
+</body>
+</html>
