@@ -1,15 +1,21 @@
+#firstheading{
+    margin: auto;
+    font-family: 'Courier New', monospace;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
 
-
-.grid-container{
-    display: grid;
-    grid-gap: 10px;
-    padding: 10px;
-    grid-template-areas: 
-    'a a a a a a'
-    'b b c c c d'
-    'e e e e e e'
-    'f f f f f f';
-    /*justify-content: space-between;*/
+/*.grid-container{*/
+/*    display: grid;*/
+/*    grid-gap: 10px;*/
+/*    padding: 10px;*/
+/*    grid-template-areas:*/
+/*    'a a a a a a'*/
+/*    'b b c c c d'*/
+/*    'e e e e e e'*/
+/*    'f f f f f f';*/
+/*    !*justify-content: space-between;*!*/
     /*justify-content: start, end, center, space-around, space-evenly, space-between;*/
     /* height: 400px; */
 }
@@ -38,11 +44,15 @@
 #five{
     background-color: maroon;
     grid-area: e;
+    margin: auto;
 }
 
 #six{
-    background-color: grey;
+    background-color: white;
+    color: blackfgg;
     grid-area: f;
+    margin: auto;
+    padding: 1em;
 }
 
 .flex-container{
